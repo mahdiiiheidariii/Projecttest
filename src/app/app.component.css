@@ -1,0 +1,7 @@
+.boxOfAppBoxComponent{
+    /*width: calc(100vw);*/
+    height: 70vh;
+    background-color: azure;
+    padding: 25px;
+    display: flex;
+}

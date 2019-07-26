@@ -1,5 +1,6 @@
 <div class="menuBox">
+    <img src="../../assets/images/tarahsitelogo.png" alt="">
     <ul>
-        <li *ngFor="let item of menuItems"><a href="">{{item.name}}</a></li>
+        <li *ngFor="let item of menuItems; let i = index;" (click)="isActive(i)" [ngClass]="active === i ? 'active':''">{{item.name}}</li>
     </ul>
 </div>

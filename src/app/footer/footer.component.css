@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+.topFooter {
+    width: inherit;
+    height: 30vh;
+    display: flex;
+
+}
+.topRightFooter, .topCenterFooter, .topLeftFooter {
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    font-family: iransans;
+}
+.bottomFooter {
+    width: inherit;
+    height: 10vh;
+    line-height: 10vh;
+    font-family: iransans;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+}
+
+.bottomFooter > p {
+    margin: 0;
+}
